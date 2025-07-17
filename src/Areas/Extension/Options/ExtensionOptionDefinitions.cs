@@ -7,11 +7,11 @@ public static class ExtensionOptionDefinitions
 {
     public static class Az
     {
-        public const string CommandName = "command";
+        public const string IntentName = "intent";
 
-        public static readonly Option<string> Command = new(
-            $"--{CommandName}",
-            "The Azure CLI command to execute (without the 'az' prefix). For example: 'group list'."
+        public static readonly Option<string> Intent = new(
+            $"--{IntentName}",
+            "The description of the goal to accomplish using Azure CLI. For example: 'List all resource groups in the subscription.'"
         )
         {
             IsRequired = true

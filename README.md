@@ -109,7 +109,7 @@ The Azure MCP Server supercharges your agents with Azure context. Here are some 
 - Lock/unlock configuration settings
 
 ### 🖥️ Azure CLI Extension
-- Execute Azure CLI commands directly
+- Generate Azure CLI commands from natural language intent
 - Support for all Azure CLI functionality
 - JSON output formatting
 - Cross-platform compatibility
